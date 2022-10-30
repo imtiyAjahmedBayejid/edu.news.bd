@@ -237,25 +237,21 @@ li{
   text-align: center;
   
 }
-.copyright {
-  height: 100px;
-  text-align: center;
-  bottom: 20px;
-  padding-top:10vh;
-  line-height: 50px;
-  border-top: 1px solid #999;
-}
+
 #footer h1{
   margin: 50px;
   padding: 10px;
   border: 2px solid #999;
   border-radius: 10px;
+  position: relative;
+  top:40px
 }
 #footer p{
   font-size: 15px;
   text-align: justify;
   font-family: Times New Roman;
-  
+  position: relative;
+  padding: 30px 5px;
   
 }
 #footer a{
@@ -287,7 +283,9 @@ li{
 .socialMedia {
   display: flex;
   justify-content: center;
-  
+  margin-top:50px;
+  margin-bottom:1px;
+  position: relative;
 }
 
 .socialMedia a{
@@ -307,4 +305,20 @@ li{
 }
 .socialMedia i:hover {
   transform: scale (2.4);
+}
+
+.copyright {
+
+  height: 100px;
+
+  text-align: center;
+  position: relative;
+  top: 50px;
+
+
+
+  line-height: 50px;
+
+  border-top: 1px solid #999;
+
 }
